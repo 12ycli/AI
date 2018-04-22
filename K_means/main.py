@@ -5,7 +5,7 @@ import matplotlib.animation as ani
 import random
 import copy
 
-
+# 数据大致范围
 _range = 3000
 
 
@@ -16,10 +16,6 @@ def init():
     plt.scatter(d1, d2)
 
     plt.show()
-
-
-def animate(i):
-    pass
 
 
 def generate_data(k,n,data_num):
